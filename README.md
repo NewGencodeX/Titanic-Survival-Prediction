@@ -41,6 +41,6 @@ The dataset contains information on 891 passengers with 3 identifiers, 4 numeric
 📌 Insight: First-class passengers survived significantly more than third-class.
 
 ### Age Distribution by Survival
-![Visualization comparing age distribution between Titanic passengers who survived and those who did not](outputs/figures/age_by_survival.png)
+![Visualization comparing age distribution between Titanic passengers who survived and those who did not](outputs/figures/survival_by_age.png)
 
 📌 Insight: Survivors skew slightly younger, but age is less dominant than gender or class.
