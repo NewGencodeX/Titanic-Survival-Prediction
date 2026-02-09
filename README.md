@@ -44,3 +44,12 @@ The dataset contains information on 891 passengers with 3 identifiers, 4 numeric
 ![Visualization comparing age distribution between Titanic passengers who survived and those who did not](outputs/figures/survival_by_age.png)
 
 📌 Insight: Survivors skew slightly younger, but age is less dominant than gender or class.
+
+
+## Data Cleaning & Feature Preparation
+
++ Removed identifiers and sparse features
+
++ Handled missing values
+
++ Encoded categorical variables
