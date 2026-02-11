@@ -53,3 +53,8 @@ The dataset contains information on 891 passengers with 3 identifiers, 4 numeric
 + Handled missing values
 
 + Encoded categorical variables
+
+## Modeling
+A Logistic Regression model was trained as a baseline classifier using cleaned and encoded features.  
+The dataset was split into training and testing sets, and model performance was evaluated using accuracy.  
+Results aligned with exploratory data analysis, confirming the importance of gender and passenger class.
