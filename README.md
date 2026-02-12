@@ -58,3 +58,30 @@ The dataset contains information on 891 passengers with 3 identifiers, 4 numeric
 A Logistic Regression model was trained as a baseline classifier using cleaned and encoded features.  
 The dataset was split into training and testing sets, and model performance was evaluated using accuracy.  
 Results aligned with exploratory data analysis, confirming the importance of gender and passenger class.
+
+Why Logistic Regression?
+It is a simple, interpretable model that works well for binary classification and allows us to inspect feature importance through model coefficients.
+
+## Results
+
+The model achieved strong predictive performance on the test set.
+
+Key observations from the model:
+
++ Gender and passenger class were among the strongest predictors of survival.
+
++ The model correctly captured general survival patterns present in the dataset.
+
++ This confirms that structured preprocessing and simple models can produce meaningful results.
+
+##  Future Improvements
+
+Possible next steps:
+
++ Feature engineering (e.g., family size, title extraction from names)
+
++ Compare multiple models (Random Forest, Gradient Boosting, etc.)
+
++ Hyperparameter tuning
+
++ Build a reusable ML pipeline structure
